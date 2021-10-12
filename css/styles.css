@@ -12,7 +12,7 @@
 }
 
 .jumbo1{
-    height: calc(100vh - 56px);
+    height: calc(100vh);
     background-image: url(/parallax-practice/images/pexels-jaymantri-5439.jpg);
 
 }
@@ -21,13 +21,17 @@
     background-image: url(/parallax-practice/images/pexels-edvin-richardson-796206.jpg);
 }
 .jumbo3{
+    font-family: 'Inter', sans-serif;
     height: calc(100vh);
     background-image: url(/parallax-practice/images/pexels-instawalli-176851.jpg);
 }
 .footer{
-    position: absolute !important;
+    
+    margin-top: -44px;
+    position: sticky;
     bottom: 0;
     text-align: center;
     color: white;
+   
 }
 
