@@ -1,0 +1,33 @@
+
+.jumbotron{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /* parallax effect */
+    color: white;
+    font-family: 'Noto Sans Mono', monospace;
+
+    margin-bottom: 0px;
+    padding-top: 0px 500px;
+    
+}
+
+.jumbo1{
+    height: calc(100vh - 56px);
+    background-image: url(/parallax-practice/images/pexels-jaymantri-5439.jpg);
+
+}
+.jumbo2{
+    height: calc(100vh);
+    background-image: url(/parallax-practice/images/pexels-edvin-richardson-796206.jpg);
+}
+.jumbo3{
+    height: calc(100vh);
+    background-image: url(/parallax-practice/images/pexels-instawalli-176851.jpg);
+}
+.footer{
+    position: absolute !important;
+    bottom: 0;
+    text-align: center;
+    color: white;
+}
+
